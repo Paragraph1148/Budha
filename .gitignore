@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Meson builds
+_build/
+build/
+builddir/
+
+# Flatpak
+.flatpak-builder/
+.flatpak/
+repo/
+*.flatpak
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Local Claude Code settings
+.claude/settings.local.json
